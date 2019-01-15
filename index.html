@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <header><title>layout</title>
+            <link href="style.css" type="text/css" rel="stylesheet">
+    </header>
+    <body>
+        <div class="header">
+            <div class="logo"><h1>facebook</h1></div>
+            <div class="fb-form">
+                <table >
+                    <tr>
+                        <td>Email or Phone</td>
+                        <td colspan="2">Password</td>
+                    </tr>
+                    
+                    <tr>
+                        <td><input   type="text" name="username"/> </td>
+                        <td><input type="password" name="password"/> </td>
+                        <td><input  type="submit"  value="Login" id="fb-button" name="login"/></td>
+                    </tr>
+                    
+                    <tr id="forget_password" >
+                        <td></td>
+                        <td colspan="2">Forget Password?</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <div class="left-side">
+            <p>Facebook helps you connect and share with the people in your life.</p>
+            <img src="images/GwFs3_KxNjS.png">
+        </div>
+        
+        <div class="right-side">
+                <h2>Create an account</h2>
+                <p class="form_labels">It's free and always will be.</p>
+                <form>
+                    <table  border="0" >
+                
+                    <tr>
+                        <td>
+                            <input id="full_width" type="text" name="first_name" placeholder="First name">
+                        </td>
+                        <td>
+                            <input type="text"  name="surname" placeholder="Surname">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input id="inputs_width" type="text"  name="mobile_or_email" placeholder="Mobile number or email address" width="300" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input colspan="2" id="inputs_width" type="password" name="password" width="300px" placeholder="Password">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label class="form_labels"  >Birthday</label></td>
+                    </tr>
+
+
+                    <tr>
+                            <td>
+                                <select class="dob">
+                                    <option>1</option>
+                                </select>
+                                <select class="dob">
+                                    <option>Jan</option>
+                                </select>
+                                <select class="dob">
+                                    <option>1994</option>
+                                </select>
+                            </td>
+
+                            <td id="normal" class="agree"> <a href="#">  Why do i need to provide my date of birth? </a></td>
+                    </tr>
+
+    <!--------------- QUES 1) can i use span here? ------------------------------->
+                
+                    <tr class="form_labels" >
+                        <td class="gap"><input type="radio" name="gender" >
+                            <span id="female_gender" >Female</span>
+                        <input type="radio" name="gender">Male
+                        </td>
+                    </tr>
+                
+    <!--------------- QUES 2)  can i give class here cuz i can't give two id to single element? -->
+                
+                    <tr>
+                        <td colspan="2" id="normal" class="agree">
+                            <p>By clicking Sign Up, you agree to our <a href="#">Terms, Data Policy</a> and <a href="#">Cookie Policy.</a> You may receive SMS notifications from us and can opt out at any time.<br><br>
+
+                            </p>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="sign_up" type="submit" name="sign_up" value="Sign up">
+                        </td>
+                    </tr>
+                    </table>
+        </form>
+            <p id ="celeb_sign_up"><a href="#" >Create a Page</a> for a celebrity, band or business.</p>
+        </div>
+            
+        <div class="footer">
+            <div class="languages">Yay am footer ;)
+
+            </div>
+        </div>
+        <!-- if i dn't give footer class float left the html text footer will be down right-side and left-side div but the style of footer element will overlap left-side and right-side elements. so, style overlalps but not html elment texxt. / 
+        
+        -->
+    </body>
+</html>

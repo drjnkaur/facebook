@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+        padding:0px;
+}
+body{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color:#365899; 
+
+}
+.logo{
+    font-family: inherit;
+    color: white;
+    width: 40%;
+    padding-top:28px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 170px;
+    float:left;
+
+}
+.fb-form{
+    float: left;
+    padding-top: 20px;
+    margin-left: 10%;
+    color: white;
+}
+.fb-form input{
+    border: 1px solid #12264c;
+    padding: 2px;
+}
+
+#fb-button{
+    padding: 1px;
+    color:white;
+    background-color: #4267B2;
+    width: 50px;
+    border: 1px solid #29487D;
+    border-radius: 1px;
+    padding: 3px;
+}
+#fb-button:hover{
+    background-color: #365899;
+    border: 1px solid #12264c;
+}
+#forget_password{
+    color: #9cb4d8;
+}
+
+#forget_password:hover{
+    text-decoration: underline;
+}
+.left-side{
+    height: 600px;
+    width: 58%;
+    float: left;
+    background-color: #eef0f6;
+}
+.left-side img{
+    margin-top:10px;
+    margin-left: 100px;
+}
+.left-side p{
+
+    width: 400px;
+    margin-left: 180px;
+    margin-top: 50px ;
+    color: #182e58;
+    font-size: 20px;
+    font-weight: bold;;
+
+}
+.right-side{
+    height: 600px;
+    width: 42%;
+    background-color:#eef0f6 ;
+    float: right;
+
+
+}
+
+.right-side h2{
+   
+    margin-top: 20px;
+    font-size:40px;
+}
+.form_labels{
+    font-size: 20px;
+    color: black;
+    
+}
+.gap{
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.right-side table{
+    color: grey;
+  
+    width: 300px;
+    margin-top: 20px;
+
+}
+.dob{
+    padding: 6px;
+    text-align: center;
+    margin-right: -3px;
+    padding-left: 16px;
+}
+.dob option{
+    border: 3px solid grey;
+}
+#female_gender{
+    margin-right: 20px;
+}
+
+.right-side input {
+    border: 1px solid #BDC7D8;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right:15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+
+}
+#full_width{
+    width: 92%;
+}
+#normal{
+    font-size: 14px;
+
+}
+.agree a{
+    width: 80%;
+
+    color: #3B5998;
+}
+#sign_up{
+    width: 190px;
+    background-color: #5F9B4C;
+    color: white;
+    padding: 8px;
+    border: 1px solid #3B6E22;
+ 
+}
+#sign_up:hover{
+    background-color: #61AD3B;
+}
+#inputs_width{
+    width: 94%;
+}
+#celeb_sign_up{
+    margin-top: 10px;
+    font-weight: bolder;
+    color: #666666;
+    font-size: 14px;
+}
+#celeb_sign_up a{
+    color: #365899;
+}
+
+
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color:#D6DBEA;
+    float: left;
+}
